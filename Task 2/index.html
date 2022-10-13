@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css"></link>
+    <title>Bar plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+
+</head>
+<body>
+<h1>Bar Chart</h1>
+<div class="absolute-div">
+    <div class="flex-div">
+        <button style="background-color: #34495e"; onclick="drawBar(gLow)">TemperatureLow</button>
+        <button style="background-color: #34495e"; onclick="drawBar(gHigh)">TemperatureHigh</button>
+        <button style="background-color: #34495e"; onclick="drawBar(gMin)">TemperatureMin</button>
+        <button style="background-color: #34495e"; onclick="drawBar(gMax)">TemperatureMax</button>
+
+    </div>
+    <div id="wrapper" class="wrapper">
+        <script src="Bchart.js"></script>
+    </div>
+</div>
+
+
+</body>
+</html>
